@@ -1,0 +1,22 @@
+
+//variables!
+//dry!
+//no repeats
+$black: black;
+$blue: blue;
+$normal-size: 2vw;
+
+body{
+  /* hi world im using sass */
+  //js style comment
+  //only works in sass
+  //not css
+  background-color: $black;
+  color: red;
+
+  &:hover{
+    color: $blue;
+    font-size: $normal-size;
+  }
+
+}

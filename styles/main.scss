@@ -1,0 +1,34 @@
+//style guide variables
+$headline-text: 3rem; //300%;
+$body-text: 1rem; //100%;
+$nav-item: 1.25rem; //125%
+$sub-header: 1.50rem; //150%
+$byLine: .75rem; //75%
+//
+//margin sizes for headlines
+$headline-margin: 5px;
+//font variables
+$sans-serif: 'Open Sans', sans-serif;
+$another-sans-serif: 'Roboto', sans-serif;
+
+body{
+  font-size: 16px;
+  font-family: $sans-serif;
+}
+h1{
+  font-size: $headline-text;
+}
+p{
+  font-size: $body-text;
+  font-family: $another-sans-serif;
+}
+nav li {
+  font-size: $nav-item;
+}
+h2{
+  font-size: $sub-header;
+}
+
+figcaption{
+  font-size: $byLine;
+}
